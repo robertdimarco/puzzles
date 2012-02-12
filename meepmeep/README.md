@@ -2,6 +2,7 @@
 
 * Difficulty:  Hors d'oeuvre
 * Keyword:     hoppity
+* Completed:   2009-04-11
 
 To help test whether your puzzle submissions fit the guidelines, try this simple test puzzle. Your solution must follow the guidelines like any other puzzle. Write a program that takes as input a single argument on the command line. This argument must be a file name, which contains text. The program should completely ignore this argument and instead print to standard out the string "Meep meep!" (without the double quotes) followed by a newline.
 

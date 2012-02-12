@@ -1,8 +1,8 @@
 #Hoppity Hop!#
 
-Difficulty:  Hors d'oeuvre
-Keyword:     hoppity
-Completed:   2009-04-11
+* Difficulty:  Hors d'oeuvre
+* Keyword:     hoppity
+* Completed:   2009-04-11
 
 To help test whether your puzzle submissions fit the guidelines, try this simple test puzzle. Your solution must follow the guidelines like any other puzzle. Write a program that takes as input a single argument on the command line. This argument must be a file name, which contains a single positive integer. The program should read this file and obtain the integer within, and then output a sequence of strings based upon the number (details below).
 
