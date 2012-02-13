@@ -1,0 +1,2 @@
+#!/bin/bash
+java -cp /usr/local/lib/libthrift.jar:/usr/local/lib/log4j-1.2.15.jar:. com/facebook/puzzles/dinoisland/thrift/DinoislandClient $*
