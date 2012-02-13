@@ -1,0 +1,10 @@
+4
+front_door .25
+under_kitchen_sink .33333333333333333333
+under_bed .41666666666666666666
+in_flower_pot .00000000000000000001
+4
+front_door in_flower_pot 5
+front_door under_kitchen_sink 20
+front_door under_bed 5
+under_kitchen_sink under_bed 5
