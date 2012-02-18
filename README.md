@@ -1,4 +1,4 @@
-#Solutions to Facebook Engineering Puzzles#
+##Solutions to Facebook Engineering Puzzles##
 
 This repository includes solutions to the Facebook Engineering Puzzles previously hosted
 on http://www.facebook.com/careers/puzzles.php. Facebook has since discontinued the use
@@ -11,7 +11,7 @@ directories includes sample inputs that were created by others and made availabl
 the Facebook Puzzles message boards, but the original threads are no longer publicly
 available, so the author information is currently unknown.
 
-####Thanks#### go out to all of the folks that created and distributed those test cases,
+Thanks go out to all of the folks that created and distributed those test cases,
 and actively participated in the discussions on those boards.
 
 ###Known References and Notes###
