@@ -32,14 +32,18 @@ Find the maximum total from top to bottom of the triangle below:
 NOTE: As there are only 16384 routes, it is possible to solve this problem by trying every route. However, Problem 67, is the same challenge with a triangle containing one-hundred rows; it cannot be solved by brute force, and requires a clever method! ;o)
 '''
 
-def dfs_max(i, j):
-  key = str(i) + ':' + str(j)
-  if key in sums: return sums[key]
-  if (i >= len(tree) or (j >= len(tree[i]))): return 0
-  sums[key] = int(tree[i][j]) + max(dfs_max(i+1, j), dfs_max(i+1, j+1))
-  return sums[key]
-file = open('018.txt', 'r')
 tree, sums = [], {}
+file = open('018.txt', 'r')
 for line in file:
-  tree.append(line.rstrip('\n').split(' '))
-print dfs_max(0, 0)
+  tree.append(map(int, line.rstrip('\n').split(' ')))
+
+def dfs_max(i=0, j=0):
+  if (i >= len(tree) or (j >= len(tree[i]))):
+    return 0
+  key = str(i) + ':' + str(j)
+  if key in sums:
+    return sums[key]
+  sums[key] = tree[i][j] + max(dfs_max(i+1, j), dfs_max(i+1, j+1))
+  return sums[key]
+
+print dfs_max()
