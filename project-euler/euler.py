@@ -18,6 +18,13 @@ def is_hexagonal(n):
   print x
   return True if (x == int(x)) else False
 
+def is_lychrel(n, iterations = 50):
+  for i in range(iterations):
+    n += int(str(n)[::-1])
+    if is_palindrome(n):
+     return False
+  return True
+
 def is_palindrome(val):
   value = str(val)
   return True if value == value[::-1] else False
@@ -37,6 +44,9 @@ def is_pentagonal(n):
   if n == 0: return False
   x = decimal.Decimal(str((1/6) + (1/3)*math.sqrt(0.25 + 6*n)))
   return True if (x == int(x)) else False
+
+def is_permutation(a, b):
+  return True if (sorted(str(a)) == sorted(str(b))) else False
 
 def is_prime(n):
   if n <= 1: return False
