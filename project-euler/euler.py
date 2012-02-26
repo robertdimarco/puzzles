@@ -74,6 +74,12 @@ def is_triangle(n):
   return True if (x == int(x)) else False
 
 
+# Euler's Totient Function
+def phi(n):
+  import operator
+  if is_prime(n): return n-1
+  return n*reduce(operator.mul, map(lambda x: (x-1)/x, set(primefactors(n))))
+
 # Sieve of Eratosthenes
 def prime_sieve(n):
   primes = []
@@ -95,3 +101,18 @@ def get_prime_factors(n):
       return l
     i+=1
   return [int(n)]
+
+
+class Totient:
+  def __init__(self, n):
+    self.totients = [1 for i in range(n)]
+    for i in range(2, n):
+      if self.totients[i] == 1:
+        for j in range(i, n, i):
+          self.totients[j] *= i - 1
+          k = j / i
+          while k % i == 0:
+            self.totients[j] *= i
+            k /= i
+  def __call__(self, i):
+    return self.totients[i]
