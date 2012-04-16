@@ -22,19 +22,19 @@ It's important to understand how light travels in the Hall of Mirrors. Light tra
 
 In the following cases, light approaches a corner and is reflected, changing its direction:
 
-![reflection](http://robertdimarco.github.com/engineering-puzzles/google-code-jam-2012/reflection.jpg)
+![reflection](https://github.com/robertdimarco/engineering-puzzles/raw/master/google-code-jam-2012/hall-of-mirrors/reflection.png)
 
 In the first two cases, light approached two adjacent mirrors at the point where they met. Light was reflected in the same way as if it had hit the middle of a long mirror. In the third case, light approached the corners of three adjacent mirrors, and returned in exactly the direction it came from.
 
 In the following cases, light approaches the corners of one or more mirrors, but does not bounce, and instead continues in the same direction:
 
-![no-reflection](http://robertdimarco.github.com/engineering-puzzles/google-code-jam-2012/no-reflection.jpg)
+![no-reflection](https://github.com/robertdimarco/engineering-puzzles/raw/master/google-code-jam-2012/hall-of-mirrors/no-reflection.png)
 
 This happens when light reaches distance 0 from the corner of a mirror, but would not have to pass through the mirror in order to continue in the same direction. In this way, a ray of light can pass between two mirrors that are diagonally adjacent to each other -- effectively going through a space of size 0. Good thing it's of size 0 too, so it fits!
 
 In the final case, light approaches the corner of one mirror and is destroyed:
 
-![destruction](http://robertdimarco.github.com/engineering-puzzles/google-code-jam-2012/destruction.jpg)
+![destruction](https://github.com/robertdimarco/engineering-puzzles/raw/master/google-code-jam-2012/hall-of-mirrors/destruction.png)
 
 The mirror was in the path of the light, and the ray of light didn't approach the corners of any other mirrors.
 
