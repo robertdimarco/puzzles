@@ -104,6 +104,9 @@ The restriction from the Small dataset does not apply.
 #.#..#
 #...##
 ######
+</pre>
+
+### Sample Output
 
 <pre>
 Case #1: 4
@@ -113,8 +116,6 @@ Case #4: 0
 Case #5: 2
 Case #6: 28
 </pre>
-
-### Sample Output
 
 In the first case, light travels exactly distance 1 if you look directly up, down, left or right.
 
