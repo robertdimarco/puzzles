@@ -2,12 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int compare(const void *a, const void *b) {
-  const long long *p1 = a;
-  const long long *p2 = b;
-  return (((*p1)) - ((*p2)));
-}
-
 int main(int argc, char** argv) {
   if (argc < 2) {
     printf("usage: ./recycle-numbers <file.in>\n");
