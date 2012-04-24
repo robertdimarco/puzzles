@@ -1,3 +1,5 @@
+# coding=utf-8
+
 '''
 Problem 67
 09 April 2004

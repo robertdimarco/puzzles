@@ -15,8 +15,7 @@ def is_hexagonal(n):
   import decimal, math
   if n == 0: return False
   x = decimal.Decimal(str(0.25 + 0.25*math.sqrt(1 + 8*n)))
-  print x
-  return True if (x == int(x)) else False
+  return (x == int(x))
 
 def is_lychrel(n, iterations = 50):
   for i in range(iterations):
@@ -27,7 +26,7 @@ def is_lychrel(n, iterations = 50):
 
 def is_palindrome(val):
   value = str(val)
-  return True if value == value[::-1] else False
+  return (value == value[::-1])
 
 def is_pandigital(n):
   if not isinstance(n, (str, int)):
@@ -35,7 +34,7 @@ def is_pandigital(n):
   if (len(str(n)) > 9):
     return False
   compare_to = sum(i*(10**(i-1)) for i in range(1,len(str(n))+1))
-  return True if (sorted(str(n)) == sorted(str(compare_to))) else False
+  return (sorted(str(n)) == sorted(str(compare_to)))
 
 # P(n) = n(3n-1)/2
 # https://en.wikipedia.org/wiki/Pentagonal_number
@@ -43,10 +42,10 @@ def is_pentagonal(n):
   import decimal, math
   if n == 0: return False
   x = decimal.Decimal(str((1/6) + (1/3)*math.sqrt(0.25 + 6*n)))
-  return True if (x == int(x)) else False
+  return (x == int(x))
 
 def is_permutation(a, b):
-  return True if (sorted(str(a)) == sorted(str(b))) else False
+  return (sorted(str(a)) == sorted(str(b)))
 
 def is_prime(n):
   if n <= 1: return False
@@ -70,8 +69,7 @@ def is_triangle(n):
   import decimal, math
   if n == 0: return False
   x = decimal.Decimal(str(-0.5 + math.sqrt(0.25 + 2*n)))
-  print x
-  return True if (x == int(x)) else False
+  return (x == int(x))
 
 
 # Euler's Totient Function
@@ -116,3 +114,4 @@ class Totient:
             k /= i
   def __call__(self, i):
     return self.totients[i]
+

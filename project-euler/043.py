@@ -23,5 +23,5 @@ import itertools
 primes = [2,3,5,7,11,13,17]
 def p043(n):
   n = int(''.join(n))
-  return False if sum(1 for i in range(1,8) if (int(str(n)[i:i+3]) % primes[i-1] != 0)) else True
+  return (sum(1 for i in range(1,8) if (int(str(n)[i:i+3]) % primes[i-1] != 0)) <= 0)
 print sum(int(''.join(i)) for i in itertools.permutations(str(9876543210), 10) if p043(i))

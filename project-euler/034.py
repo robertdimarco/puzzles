@@ -14,5 +14,5 @@ Note: as 1! = 1 and 2! = 2 are not sums they are not included.
 import math
 facts = [math.factorial(i) for i in range(10)]
 def sumfact(n):
-  return True if (sum(facts[int(i)] for i in str(n)) == n) else False
+  return (sum(facts[int(i)] for i in str(n)) == n)
 print sum(i for i in range(3, 10**5) if sumfact(i))
