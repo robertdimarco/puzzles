@@ -24,7 +24,7 @@ Find the lowest value for n where R(n) is 8001.
 
 ## Problem 2 of 3: HTML
 
-One way to exclude miscellaneous text from an article is to find the [standard deviation](http://en.wikipedia.org/wiki/Standard_deviation) of the depth of the <p> tags for the <article>. For the following HTML we can draw a depth tree like so.
+One way to exclude miscellaneous text from an article is to find the [standard deviation](http://en.wikipedia.org/wiki/Standard_deviation) of the depth of the &lt;p&gt; tags for the &lt;article&gt;. For the following HTML we can draw a depth tree like so.
 
 <pre><code>
 <article>
