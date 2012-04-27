@@ -26,7 +26,7 @@ Find the lowest value for n where R(n) is 8001.
 
 One way to exclude miscellaneous text from an article is to find the [standard deviation](http://en.wikipedia.org/wiki/Standard_deviation) of the depth of the &lt;p&gt; tags for the &lt;article&gt;. For the following HTML we can draw a depth tree like so.
 
-<pre><code>
+```html
 <article>
  <p>Sign Up Today</p>
  <div>
@@ -38,7 +38,7 @@ One way to exclude miscellaneous text from an article is to find the [standard d
    <p>Content</p>
  </div>
 </article>
-</code></pre>
+```
 
 <pre>
 article - 0
