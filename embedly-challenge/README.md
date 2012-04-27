@@ -51,7 +51,7 @@ article - 0
     p - 2
 </pre>
 
-For [http://apply.embed.ly/static/data/2.html](https://github.com/robertdimarco/engineering-puzzles/raw/master/embedly-challenge/2.html) find the standard deviation of all the <p> tags within the <article> tag. Round to the nearest tenth: X.X.
+For [http://apply.embed.ly/static/data/2.html](https://github.com/robertdimarco/engineering-puzzles/raw/master/embedly-challenge/2.html) find the standard deviation of all the &lt;p&gt; tags within the &lt;article&gt; tag. Round to the nearest tenth: X.X.
 
 ## Problem 3 of 3: Zipf's law
 
