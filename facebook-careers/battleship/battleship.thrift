@@ -84,7 +84,7 @@ exception GameOverException {
 exception DuplicateEmailException {
 }
 
-service Battleship2 {
+service Battleship {
 
 /* Registers a player in the game, returning the game ID they have been
  * assigned or -1 if game creation fails.  The server will report victory in
@@ -100,7 +100,7 @@ service Battleship2 {
  * game being full.
  */
    bool join(1:i32 gameID, 2:string email) throws (1:DuplicateEmailException dee);
-   
+
 
 /* Blocks until it is the calling player's turn, then returns true.
  * Returns false if an error occurs, which likely means the server has
@@ -130,7 +130,7 @@ service Battleship2 {
  * taken a turn yet.
  */
   Coordinate getOpponentsLastAttack() throws (1:NoMovesMadeException nmme, 2:UnregisteredException ue);
-  
+
 /* Call this when you've won the game to get credit.  It will return
  * a secret code to register your victory with us if you've won the
  * game, and will return "Nope!" otherwise.

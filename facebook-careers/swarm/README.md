@@ -1,8 +1,7 @@
-#We Are The Swarm#
+## We Are The Swarm
 
-* Difficulty:  Meal
-* Keyword:     swarm
-* Completed:   2009-06-10 [Java]
+  * Keyword:     `swarm`
+  * Difficulty:  `Meal`
 
 Everyone you know anticipates the release of StarCraft 2 with vast eagerness. To help get back in the saddle of the greatest RTS game ever, you decide to use programming to help practice your decision making.
 
@@ -18,7 +17,7 @@ Where **z** is the strength of the Zerg forces, s is the strength of the Terran 
 
 Write a program that takes a single argument on the command line. This argument must be a file name, which contains the input data. The program should output to standard out the deployment orders of your Zerg horde. Your program must be robust and fast enough to be able to handle large inputs (within the below bounds) within a matter of minutes.
 
-**Input specifications**
+### Input specifications
 
 The input file starts out with a single line with an integer number of planets (**P**). Subsequent lines represent data blocks on each planet. The first line of a data block is two integers separated by single space character. The first integer is the number of Terran bases on the planet (**T**), followed by the number of Zerg forces available on the planet (**Z**). Following that, each subsequent line in the data block contains two integers separated by a single space character. These numbers are the strength of the Terran forces at the base (**s**) and the minerals at the base (**m**). There will be one subsequent line per base on the planet. All values in the input are integers.
 
@@ -43,7 +42,7 @@ Example input file:
 40 5
 </pre>
 
-**Output specifications**
+### Output specifications
 
 For each planet (in order of appearance in the input file), output two lines of text. The first line of text should be the total amount of Zerg forces utilized on the planet, followed by the probable number of minerals captured, separated by a single space character.
 
@@ -58,4 +57,4 @@ Example output:
 0 21
 </pre>
 
-Originally published at http://www.facebook.com/careers/puzzles.php?puzzle_id=5.
+Originally published at [http://www.facebook.com/careers/puzzles.php?puzzle_id=5](http://www.facebook.com/careers/puzzles.php?puzzle_id=5).

@@ -6,7 +6,7 @@ import org.apache.thrift.*;
 import org.apache.thrift.protocol.*;
 import org.apache.thrift.transport.*;
 
-public class SimonSays_Client {
+public class SimonSaysClient {
 
   public static final String email = "user@domain.com";
 
@@ -19,8 +19,8 @@ public class SimonSays_Client {
     try {
       transport = new TSocket(args[0], Integer.parseInt(args[1]));
       TProtocol protocol = new TBinaryProtocol(transport);
-      Client client = new Client(protocol);  
-      transport.open(); 
+      Client client = new Client(protocol);
+      transport.open();
 
       client.registerClient(email);
       do {

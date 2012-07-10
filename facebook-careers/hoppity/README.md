@@ -1,12 +1,11 @@
-#Hoppity Hop!#
+## Hoppity Hop!
 
-* Difficulty:  Hors d'oeuvre
-* Keyword:     hoppity
-* Completed:   2009-04-11
+  * Keyword:     `hoppity`
+  * Difficulty:  `Hors d'oeuvre`
 
 To help test whether your puzzle submissions fit the guidelines, try this simple test puzzle. Your solution must follow the guidelines like any other puzzle. Write a program that takes as input a single argument on the command line. This argument must be a file name, which contains a single positive integer. The program should read this file and obtain the integer within, and then output a sequence of strings based upon the number (details below).
 
-**Input specifications**
+### Input specifications
 
 The input file will contain a single positive integer (in base 10) expressed as a string using standard ASCII text (e.g. for example, the number "15" but without the double quotes). This number may or may not be padded on either side with white space. There will be no commas, periods, or any other non-numeric characters present within the number. The file may or may not terminate in a single new line character ("\n"). An example input file is below:
 
@@ -14,7 +13,7 @@ The input file will contain a single positive integer (in base 10) expressed as 
 15
 </pre>
 
-**Output specifications**
+### Output specifications
 
 The program should iterate over all integers (inclusive) from 1 to the number expressed by the input file. For example, if the file contained the number 10, the submission should iterate over 1 through 10. At each integer value in this range, the program may possible (based upon the following rules) output a single string terminating
 
@@ -34,4 +33,4 @@ Hoppity
 Hop
 </pre>
 
-Originally published at http://www.facebook.com/careers/puzzles.php?puzzle_id=7.
+Originally published at [http://www.facebook.com/careers/puzzles.php?puzzle_id=7](http://www.facebook.com/careers/puzzles.php?puzzle_id=7).

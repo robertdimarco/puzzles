@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import math
 
 # Level 1
@@ -74,3 +76,4 @@ assert 4 == num_subset_sums([1, 2, 3, 4, 6])
 file = open('numbers.csv')
 print num_subset_sums(map(int, file.read().split(',')))
 file.close()
+

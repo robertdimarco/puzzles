@@ -1,10 +1,9 @@
-#Find Sophie#
+## Find Sophie
 
-* Difficulty:  Buffet
-* Keyword:     sophie
-* Completed:   2009-10-18 [Java]
+  * Keyword:     `sophie`
+  * Difficulty:  `Buffet`
 
-**Input specifications**
+### Input specifications
 
 The input file starts with a single number, **m**, followed by a newline. **m** is the number of locations available for Sophie to hide in your apartment. This line is followed by **m** lines, each containing information for a single location of the form (brackets for clarity):
 
@@ -22,7 +21,6 @@ The file continues with a single number, **c**, followed by a newline. **c** is 
 
 The first two entries are the names of locations and **seconds** is the number of seconds it takes you to walk between the them. Again these lines are whitespace-delimited. Note that the locations are unordered; you can walk between them in either direction and it will take the same amount of time. No duplicate pairs will be included in the input file, and all location names will match one described earlier in the file.
 
-
 Example input file:
 <pre>
 4
@@ -38,7 +36,7 @@ front_door in_cabinet 2
 in_cabinet behind_blinds 6
 </pre>
 
-**Output specifications**
+### Output specifications
 
 Your output must consist of a single number followed by a newline, printed to standard out. The number is the minimum expected time in seconds it takes to find Sophie, rounded to the nearest hundredth. Make sure that the number printed has exactly two digits after the decimal point (even if they are zeroes). If it is impossible to guarantee that you will find Sophie, print "-1.00" followed by a newline instead.
 
@@ -47,4 +45,4 @@ Example output:
 6.00
 </pre>
 
-Originally published at http://www.facebook.com/careers/puzzles.php?puzzle_id=11.
+Originally published at [http://www.facebook.com/careers/puzzles.php?puzzle_id=11](http://www.facebook.com/careers/puzzles.php?puzzle_id=11).

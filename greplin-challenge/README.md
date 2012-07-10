@@ -1,4 +1,4 @@
-# The Greplin Programming Challenge: Version 1
+## The Greplin Programming Challenge: Version 1
 
 So it begins...
 
@@ -6,7 +6,7 @@ So it begins...
 
 Welcome to the Greplin Programming Challenge.  You should try to complete all three levels in a single sitting.  It should take anywhere from 20 minutes to 2 hours.
 
-## Level 1
+### Level 1
 
 ----------------------------------------
 
@@ -16,7 +16,7 @@ As an example, if the input was "I like racecars that go fast" the password woul
 
 Enter the password to access level 2.
 
-## Level 2
+### Level 2
 
 ----------------------------------------
 
@@ -30,14 +30,14 @@ You will receive additional instructions at that time.  For the second portion o
 
 Enter the password to access level 3.
 
-### No-phone Instructions
+#### No-phone Instructions
 
   1. Use your code to compute the smallest prime fibonacci number greater than 227,000.  Call this number X.
   2. The password for level 3 is the sum of prime divisors of X + 1.
 
 Note: If you call the number instead, it will check your answer for step 1.
 
-## Level 3
+### Level 3
 
 ----------------------------------------
 
@@ -58,7 +58,7 @@ the subsets would be
 
 Here is the [list of numbers](https://github.com/robertdimarco/engineering-puzzles/raw/master/greplin-challenge/numbers.csv) you should run your code on. The password is the number of subsets.  In the above case the answer would be 4.
 
-## The End
+### The End
 
 ----------------------------------------
 
@@ -70,3 +70,4 @@ Even if you're not looking for a job, we'd love to hear what you thought about t
 
 
 Originally posted at [http://challenge.greplin.com/](http://challenge.greplin.com/).
+

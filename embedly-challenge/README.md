@@ -1,4 +1,4 @@
-# Embed.ly Challenge
+## Embed.ly Challenge
 
 Howdy! This little challenge is meant to be fun and still pertain to the work we do at [Embedly](http://embed.ly/company/jobs).
 
@@ -8,7 +8,7 @@ If you have any questions, hit us up: [@embedly](http://twitter.com/embedly).
 
 This challenge is based off of [Greplin's](http://challenge.greplin.com/) back in 2010.
 
-## Problem 1 of 3: Math
+### Problem 1 of 3: Math
 
 <pre>
 n! means n * (n - 1) * ... * 3 * 2 * 1
@@ -22,7 +22,7 @@ For example, R(10) is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 
 Find the lowest value for n where R(n) is 8001.
 
-## Problem 2 of 3: HTML
+### Problem 2 of 3: HTML
 
 One way to exclude miscellaneous text from an article is to find the [standard deviation](http://en.wikipedia.org/wiki/Standard_deviation) of the depth of the &lt;p&gt; tags for the &lt;article&gt;. For the following HTML we can draw a depth tree like so.
 
@@ -53,7 +53,7 @@ article - 0
 
 For [http://apply.embed.ly/static/data/2.html](https://github.com/robertdimarco/engineering-puzzles/raw/master/embedly-challenge/2.html) find the standard deviation of all the &lt;p&gt; tags within the &lt;article&gt; tag. Round to the nearest tenth: X.X.
 
-## Problem 3 of 3: Zipf's law
+### Problem 3 of 3: Zipf's law
 
 A simplified version of [Zipf's law](http://en.wikipedia.org/wiki/Zipf%27s_law):
 
@@ -76,3 +76,4 @@ The following is a frequency set of words in a body of text that follows Zipf's 
 Given that the text has 900 unique words, how many unique words, starting with the most frequently used word, make up half the text?
 
 Originally posted at [http://apply.embed.ly/](http://apply.embed.ly/).
+

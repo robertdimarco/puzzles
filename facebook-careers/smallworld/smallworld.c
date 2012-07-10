@@ -5,7 +5,6 @@
 typedef struct coord { int id; double x, y; } coord;
 typedef struct node { int id; double x, y, dSQ; struct node * left, * right; }  node;
 
-
 double euclidianDistanceSq(node * a, node * b);
 node* buildTree(coord * arr, int n, int depth);
 void quickSort(coord arr[], int left, int right, short d);

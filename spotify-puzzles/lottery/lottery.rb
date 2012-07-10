@@ -20,7 +20,6 @@ def hypergeometric(r, m, n, k)
   return nchoosek(m,k) * nchoosek(r-m, n-k) / nchoosek(r, n)
 end
 
-
 # m the total number of people who entered the lottery
 # n the total number of winners drawn
 # t the number of tickets each winner is allowed to buy
@@ -36,3 +35,4 @@ if min_wins <= n
   }
 end
 puts "%.10f" % prob
+

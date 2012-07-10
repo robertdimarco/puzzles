@@ -1,8 +1,7 @@
-#Breathalyzer#
+## Breathalyzer
 
-* Difficulty:  Snack
-* Keyword:     breathalyzer
-* Completed:   2009-08-21 [Java]
+  * Keyword:     `breathalyzer`
+  * Difficulty:  `Snack`
 
 To safeguard against the dreaded phenomenon of wall posting while drunk, Facebook is implementing a feature that detects when post content is too garbled to have been done while sober and informs the user that they need to take an online breathalyzer test before being allowed to post.
 
@@ -10,7 +9,7 @@ Unfortunately, there is far too much content for a given set of persons to evalu
 
 Your program will be given a list of accepted words and run on one wall post at a time. For each word **W** in the post, you must find word **W'** from the list of accepted words such that the number of changes from **W** to **W'** is minimized. It is possible that **W** is already **W'** and thus the number of changes necessary is zero. A change is defined as replacing a single letter with another letter, adding a letter in any position, or removing a letter from any position. The total score for the wall post is the minimum number of changes necessary to make all words in the post acceptable.
 
-**Input specifications**
+### Input specifications
 
 Your program must take a single string argument, representing the file name containing the wall post to analyze. In addition, your program must open up and read the accepted word list from the following static path location:
 
@@ -30,7 +29,7 @@ tihs sententcnes iss nout varrry goud
 
 You are guaranteed that your program will run against well formed input files and that the accepted word list is identical to the one provided for testing.
 
-**Output specifications**
+### Output specifications
 
 Your program must print out the minimum number of changes necessary to turn all words in the input wall post into accepted words as defined by the word list file. Words may not be joined together, or separated into multiple words. A change in a word is defined as one of the following:
 
@@ -46,4 +45,4 @@ Example Output (newline after number):
 8
 </pre>
 
-Originally published at http://www.facebook.com/careers/puzzles.php?puzzle_id=17.
+Originally published at [http://www.facebook.com/careers/puzzles.php?puzzle_id=17](http://www.facebook.com/careers/puzzles.php?puzzle_id=17).

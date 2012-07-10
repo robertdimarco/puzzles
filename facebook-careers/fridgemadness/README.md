@@ -1,14 +1,13 @@
-#Refrigerator Madness#
+## Refrigerator Madness
 
-* Difficulty:  Meal
-* Keyword:     fridgemadness
-* Completed:   2009-07-05 [Python]
+  * Keyword:     `fridgemadness`
+  * Difficulty:  `Meal`
 
 Facebook is always looking for ways to make its engineers happier and work faster. The free food and drinks at Facebook have revealed a surprising empirical fact: the drinks an engineer prefers determines who they are best at working with. In an attempt to capitalize on this fact, Facebook is implementing extreme programming in its engineers as a way to maximize productivity.
  
 As a growing company, Facebook has many engineers and determining the assignment can no longer be done by hand. By analyzing a list of available drinks in the refrigerator, and a table of employee drink preferences, you wish to provide the company with the arrangement that benefits everyone the most with happy and productive engineers. Being an engineer of some repute, you realize this is best done with a clever program.
 
-**Input specifications**
+### Input specifications
 
 The input file consists of a multi-line file that is divided into three sections. The first line of the file contains two positive integers separated by a single space character. These two numbers are the number of engineers in the file, and the number of drinks defined by the file (in that order). The number of engineers in the company will always be even.
  
@@ -34,7 +33,7 @@ Example input file:
 
 You are guaranteed that your program will run against well-formed input files, and that the number of drink definitions, and engineer definitions, will match the summary provided in the first line of the input file. 
 
-**Output specifications**
+### Output specifications
 
 To maximize the effectiveness, Facebook wants the engineers from its upper 50th percentile to only be assigned with engineers from its lower 50th percentile. To assist in this, Facebook has sorted its employee ids so that employee 0 is the most effective engineer, and progressing down to the last employee who is the least effective engineer.
  
@@ -59,4 +58,4 @@ Example output (newline at end of every file):
 2 4
 </pre>
 
-Originally published at http://www.facebook.com/careers/puzzles.php?puzzle_id=10.
+Originally published at [http://www.facebook.com/careers/puzzles.php?puzzle_id=10](http://www.facebook.com/careers/puzzles.php?puzzle_id=10).

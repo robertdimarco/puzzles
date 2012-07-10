@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from __future__ import division
 import bs4, math, operator
 
@@ -5,7 +7,7 @@ import bs4, math, operator
 
 def R(n):
   return sum(map(int, str(math.factorial(n))))
-  
+
 i = 0
 while (R(i) != 8001):
   i += 1
@@ -39,3 +41,4 @@ while total < target:
   total += freq[i]
   i += 1
 print i
+

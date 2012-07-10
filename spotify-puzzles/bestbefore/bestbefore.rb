@@ -5,7 +5,7 @@ require 'date'
 def best_before(str)
   valid_dates = []
   input = str.split("/").map { |x| x.to_i }
-  input.permutation { |perm| 
+  input.permutation { |perm|
     begin
       year, month, day = perm
       year = (year < 1000) ? year + 2000 : year
@@ -18,3 +18,4 @@ def best_before(str)
 end
 
 puts best_before($_.chop)
+

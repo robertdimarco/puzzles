@@ -1,14 +1,13 @@
-#Dinosaur Island#
+## Dinosaur Island
 
-* Difficulty:  Buffet
-* Keyword:     dinoisland
-* Completed:   2009-08-01 [Java]
+  * Keyword:     `dinoisland`
+  * Difficulty:  `Buffet`
 
 Dinosaur Island is meant to be an open-ended game/puzzle where authors can write their own dinosaur logic and attempt to thrive and/or dominate on the eponymous island. Dinosaur Island features two types of dinosaurs, herbivores and carnivores. You start the game by implementing a dinosaur client using the Thrift open-source RPC framework. Your client must provide an email address which is used to generate a unique identifier for your newly created species of dinosaur. As the game progresses, your dinosaur may be able to lay an egg, allowing you to connect an additional client to the server, and take control of newly created instance of your species.
 
 Your dinosaur starts off with a limited calorie pool and must spend them wisely, moving around the island, detecting danger, growing in size, and eating things (either plants or other dinosaurs). Hopefully it will gain enough calories that it can begin to lay eggs, increasing its numbers and beginning its ascent to evolutionary dominance.
 
-**Game Rules**
+### Game Rules
 
 The service specification for this puzzle, (dinoisland.thrift), can be compiled via the Thrift compiler into client and server skeleton code, classes, and/or stubs depending on the target language of choice.
 
@@ -22,7 +21,7 @@ One action API allows your dinosaur to lay another egg, allowing another client 
 
 Dinosaur Island features arcade style scoring, where your species (i.e. all clients under your control, representing all instances of your dinosaur species) has a fixed time limit to accumulate points by performing actions appropriate to its species type. At the end of that time limit, all instances of your species will die (i.e. an extinction event). Regardless of how this happens, either through species time limit being reached, or your dinosaur goes extinct from predation or lack of food, your species will be given a score. If your species scored above a certain threshold (even if it's not in the top 10 scores), you will be given a hash string. See the submission directions below for full details on what to do with this hash string.
 
-**Useful Facts About Dinosaur Island**
+### Useful Facts About Dinosaur Island
 
 There are three types of life forms on dinosaur island: plants, herbivores, and carnivores. Each type gains calories and staves off starvation in a different way. Plants simply gain calories from sunlight, herbivores gain calories by moving into (and thus eating) plants, and carnivores gain calories by moving into (and thus eating) herbivores.
 
@@ -40,7 +39,7 @@ Plants are not evenly distributed about the island, there will be regions of the
 
 Be on the look out for anything strange on the island. There should be some very rare surprises your dinosaurs may encounter, make sure to check all data returned to your client!
 
-**Special Submission Directions**
+### Special Submission Directions
 
 If you wish to receive credit for solving the puzzle, make sure your client calls **registerClient(1:string email, 2:string highScoreName, 3:EntityType type)** using an email address that you control and can send email from.
 
@@ -48,7 +47,7 @@ To solve the puzzle, build and run your client on your own host and have it conn
 
 You are free to put any desired debugging output in your client; the server evaluates correctness only based upon your client's interactions with the remote server, not its local output. Your client may be written in any accepted language that works with the provided Thrift library (see link below or on right side of page).
 
-**Resources**
+### Resources
 
 You can get the version of Thrift used by the Puzzle Master by visiting the Thrift web site and downloading the appropriate archived release.
 
@@ -56,4 +55,4 @@ The Dinosaur Island Thrift service file can be downloaded from Facebook's site.
 
 The Public Thrift Puzzle Server is available for your use in developing and evaluating your client.
 
-Originally published at http://www.facebook.com/careers/puzzles.php?puzzle_id=19.
+Originally published at [http://www.facebook.com/careers/puzzles.php?puzzle_id=19](http://www.facebook.com/careers/puzzles.php?puzzle_id=19).

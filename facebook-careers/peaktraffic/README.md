@@ -1,8 +1,7 @@
-#Peak Traffic#
+## Peak Traffic
 
-* Difficulty:  Meal
-* Keyword:     peaktraffic
-* Completed:   2009-06-26 [Java]
+  * Keyword:     `peaktraffic`
+  * Difficulty:  `Meal`
 
 Facebook is looking for ways to help users find out which friends they interact with the most on the site. Towards that end, you have collected data from your friends regarding who they interacted with on the site. Each piece of data represents a desirable but one-way interaction between one user of Facebook towards another user of Facebook. By finding groups of users who regularly interact with one another, you hope to help users determine who among their friends they spend the most time with online.
 
@@ -10,7 +9,7 @@ Being a popular user, you have collected a lot of data; so much that you cannot 
 
 With your program, you wish to analyze the collected data and find out all clusters within.
 
-**Input specifications**
+### Input specifications
 
 The input file consists of multiple lines of aggregated log data. Each line starts with a date entry, whose constituent parts are separated by single white spaces. The exact format of the date always follows the examples given below. Following the date is a single tab, and then the email address of the user who is performing the action. Following that email is another single tab and then finally the email of the Facebook user who receives the action. The last line of the file may or may not have a newline at its end.
 
@@ -32,7 +31,7 @@ Thu Dec 11 17:53:12 PST 2008    f@facebook.com    e@facebook.com
 
 Every line in the input file will follow this format, you are guaranteed that your submission will run against well formed input files.
 
-**Output specifications**
+### Output specifications
 
 You must output all clusters detected from the input log file with size of at least **3 members**. A cluster is defined as **N >= 3 users** on Facebook that have send and received actions between all possible permutations of any two members within the cluster.
 
@@ -47,4 +46,4 @@ d@facebook.com, e@facebook.com, f@facebook.com
 
 Finally, any cluster that is a sub-cluster (in other words, all users within one cluster are also present in another) must be removed from the output. For this case, your program should only print the largest super-cluster that includes the other clusters. Your program must be fast, efficient, and able to handle extremely large input files.
 
-Originally published at http://www.facebook.com/careers/puzzles.php?puzzle_id=8.
+Originally published at [http://www.facebook.com/careers/puzzles.php?puzzle_id=8](http://www.facebook.com/careers/puzzles.php?puzzle_id=8).

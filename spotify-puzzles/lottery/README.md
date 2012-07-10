@@ -1,7 +1,7 @@
 ## Ticket Lottery
 
-### Problem ID: lottery
-### Difficulty: Funk
+  * Problem ID: `lottery`
+  * Difficulty: `Funk`
 
 You and your friends are in New York and are planning to go see a Broadway musical. Unfortunately, New York being New York, the tickets are just a tiny bit expensive. But one of the shows has a ticket lottery each night where impecunious people such as you have a chance to win the right to buy slightly less expensive tickets to good seats. The lottery operates as follows. First, everyone interested enters the lottery. Then, **n** lucky winners are drawn, and each of these is offered to buy up to **t** tickets. Given the number of people **p** in your group (all of which entered the lottery) and the total number of people **m** that entered the lottery, what is the probability that you will be able to get tickets for your entire group? Assume that the **n** lucky winners are chosen uniformly at random from the **m** people that entered the lottery, and that each person can win at most once.
 
