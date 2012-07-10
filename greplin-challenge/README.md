@@ -62,12 +62,10 @@ Here is the [list of numbers](https://github.com/robertdimarco/engineering-puzzl
 
 ----------------------------------------
 
-Congratulations.  You completed the challenge.  Your completion code is ***-****-*****.
+Congratulations.  You completed the challenge.  Your completion code is `***-****-*****`.
 
 We'd love to talk to you - send your completion code, the code you wrote during the challenge, and your resume to [jobs+i+solved+the+challenge@greplin.com](jobs+i+solved+the+challenge@greplin.com)
 
 Even if you're not looking for a job, we'd love to hear what you thought about the challenge.
 
-
 Originally posted at [http://challenge.greplin.com/](http://challenge.greplin.com/).
-

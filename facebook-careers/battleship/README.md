@@ -19,7 +19,7 @@ If you wish to receive credit for solving the puzzle, make sure your client call
 
 To solve the puzzle, build and run your client on your own host and have it connect to our Public Thrift Puzzle Server. This server has further instructions on how to use it as both a testing and evaluation tool. You are free to put any desired debugging output in your client; the server evaluates correctness only based upon your client's interactions with the remote server, not its local output.
 
-Your client may be written in any accepted language that works with the provided Thrift library (see link below or on right side of page).
+Your client may be written in any accepted language that works with the Thrift library.
 
 ### Resources
 

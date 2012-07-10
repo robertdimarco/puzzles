@@ -76,4 +76,3 @@ The following is a frequency set of words in a body of text that follows Zipf's 
 Given that the text has 900 unique words, how many unique words, starting with the most frequently used word, make up half the text?
 
 Originally posted at [http://apply.embed.ly/](http://apply.embed.ly/).
-
