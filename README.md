@@ -127,6 +127,11 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
     <td>Python</td>
   </tr>
   <tr>
+    <td>Perfect Game</td>
+    <td>2012-07-11</td>
+    <td>Python</td>
+  </tr>
+  <tr>
     <td>Recycled Numbers</td>
     <td>2012-04-16</td>
     <td>C</td>
