@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+# expected time per attempt is given by equation
+# time = L[0] + (1-P[0])*L[1] + (1-P[0])*(1-P[1])*L[2] + ...
+# where L is the expected time and P is the probability of failure, per level
+# swap two levels if L[i]*P[i+1] > L[i+1]*P[i]
+
 import sys
 
 if len(sys.argv) < 2:
