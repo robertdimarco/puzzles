@@ -1,7 +1,7 @@
 ## Problem F: Troll Hunt
 
   * Problem ID: `trollhunt`
-  * Time limit: 1 seconds
+  * Time limit: 1 second
   * Memory limit: 2048 MB
 
 Once upon a time in a land of yore, there was a troll who lived 'neath one of the land’s many stone bridges. This troll was quite a mischievous troll, for you see, it had a habit of accusing anyone crossing the bridge of having stolen the troll’s property (which was a somewhat curious accusation given that the troll had no property), the punishment of which was to be eaten alive. Unfortunately for the troll, eventually the king got wind of its questionable business model, and sent out the valiant knights of the High Tavern to go, shall we say, Queen of Hearts, on the troll.
@@ -34,6 +34,6 @@ Output a line containing a single integer *d*, the number of days until the trol
   </tbody>
 </table>
 
-Originally posted at [https://contest.codequest.spotify.com/problem?aid=14](https://contest.codequest.spotify.com/problem?aid=14).
+Originally posted at [https://contest.codequest.spotify.com/problems/trollhunt](https://contest.codequest.spotify.com/problems/trollhunt).
 
 Author: Per Austrin. License: [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/).
