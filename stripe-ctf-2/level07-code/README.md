@@ -39,7 +39,7 @@ ext.add("&user_id=1&waffle=liege")
 (new_msg, new_sig) = ext.final()
 
 query = new_msg + '|sig:' + new_sig
-resp = requests.post('https://level07-2.stripe-ctf.com/user-dgcyzragwh/orders', data=query)
+resp = requests.post('https://level07-1.stripe-ctf.com/user-xxxxxxxxxx/orders', data=query)
 print resp.text
 ```
 
