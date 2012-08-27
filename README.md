@@ -9,7 +9,9 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
   * [Google Code Jam 2012](https://code.google.com/codejam/contests.html)
   * [Greplin Challenge](http://challenge.greplin.com/)
   * [Project Euler](http://projecteuler.net/)
+  * [Spotify Code Quest 2012](https://contest.codequest.spotify.com/)
   * [Spotify Puzzles](http://www.spotify.com/us/jobs/tech/)
+  * [Stripe Capture the Flag 2](https://stripe-ctf.com/)
 
 ### Solution Log
 
@@ -167,6 +169,20 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
   </tr>
 
   <tr>
+    <td colspan='4'><strong>Spotify Code Quest 2012</strong></td>
+  </tr>
+  <tr>
+    <td>Collapse</td>
+    <td>2012-07-26</td>
+    <td>Ruby</td>
+  </tr>
+  <tr>
+    <td>Troll Hunt</td>
+    <td>2012-07-24</td>
+    <td>Ruby</td>
+  </tr>
+
+  <tr>
     <td colspan='4'><strong>Spotify Puzzles</strong></td>
   </tr>
   <tr>
@@ -178,6 +194,55 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
     <td>Ticket Lottery</td>
     <td>2012-07-06</td>
     <td>Ruby</td>
+  </tr>
+
+  <tr>
+    <td colspan='4'><strong>Stripe Capture the Flag 2</strong></td>
+  </tr>
+  <tr>
+    <td>Level 0</td>
+    <td>2012-08-22</td>
+    <td>SQL</td>
+  </tr>
+  <tr>
+    <td>Level 1</td>
+    <td>2012-08-22</td>
+    <td>PHP / URL</td>
+  </tr>
+  <tr>
+    <td>Level 2</td>
+    <td>2012-08-22</td>
+    <td>PHP</td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td>2012-08-22</td>
+    <td>SQL</td>
+  </tr>
+  <tr>
+    <td>Level 4</td>
+    <td>2012-08-22</td>
+    <td>JavaScript</td>
+  </tr>
+  <tr>
+    <td>Level 5</td>
+    <td>2012-08-23</td>
+    <td>PHP / URL</td>
+  </tr>
+  <tr>
+    <td>Level 6</td>
+    <td>2012-08-24</td>
+    <td>JavaScript</td>
+  </tr>
+    <tr>
+    <td>Level 7</td>
+    <td>2012-08-26</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td>Level 8</td>
+    <td>2012-08-26</td>
+    <td>Python</td>
   </tr>
 </table>
 
