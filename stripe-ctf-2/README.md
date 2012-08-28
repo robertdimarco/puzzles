@@ -1,4 +1,4 @@
-## Stripe: Capture the Flag 2
+## Stripe: Capture the Flag 2.0 (Web Edition)
 
 ### About Stripe CTF
 

@@ -11,7 +11,7 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
   * [Project Euler](http://projecteuler.net/)
   * [Spotify Code Quest 2012](https://contest.codequest.spotify.com/)
   * [Spotify Puzzles](http://www.spotify.com/us/jobs/tech/)
-  * [Stripe Capture the Flag 2](https://stripe-ctf.com/)
+  * [Stripe Capture the Flag 2.0 (Web Edition)](https://stripe-ctf.com/)
 
 ### Solution Log
 
@@ -197,7 +197,7 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
   </tr>
 
   <tr>
-    <td colspan='4'><strong>Stripe Capture the Flag 2</strong></td>
+    <td colspan='4'><strong>Stripe Capture the Flag 2.0 (Web Edition)</strong></td>
   </tr>
   <tr>
     <td>Level 0</td>
