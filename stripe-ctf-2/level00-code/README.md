@@ -8,10 +8,10 @@ You can access the Secret Safe at https://level00-1.stripe-ctf.com/user-xxxxxxxx
 
 ### Running
 
-- Install node and npm (see http://nodejs.org/)
-- Run 'npm install' from this directory to install dependencies
-- Run 'node level00.js' to start the server on port 3000
-- Go to localhost:3000 in your browser
+- Install node and npm (see [http://nodejs.org/](http://nodejs.org/))
+- Run `npm install` from this directory to install dependencies
+- Run `node level00.js` to start the server on port 3000
+- Go to `localhost:3000` in your browser
 
 ### Solution
 

@@ -6,8 +6,7 @@ You can play the Guessing Game at https://level01-1.stripe-ctf.com/user-xxxxxxxx
 
 ### Running
 
-- Put index.php on a server somewhere with the two .txt files in the
-  same directory.
+- Put `index.php` on a server somewhere with the two `.txt` files in the same directory.
 
 ### Solution
 

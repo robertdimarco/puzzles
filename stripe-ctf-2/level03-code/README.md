@@ -6,9 +6,9 @@ A beta version has launched with some interesting secrets (including the passwor
 
 ### Running
 
-- Run 'pip install flask flup'
-- Run 'python secretvault.py'. This will automatically generate test data for you.
-- Visit 'localhost:5000' in your web browser
+- Run `pip install flask flup`
+- Run `python secretvault.py`. This will automatically generate test data for you.
+- Visit `localhost:5000` in your web browser
 
 ### Solution
 

@@ -12,9 +12,9 @@ Interesting in setting up your own DomainAuthenticator? You can grab the source 
 
 ### Running
 
-- Install bundler: 'gem install bundler'
-- Run srv.rb: './srv.rb'
-- Point your browser to localhost:4567
+- Install bundler: `gem install bundler`
+- Run srv.rb: `./srv.rb`
+- Point your browser to `localhost:4567`
 
 ### Solution
 

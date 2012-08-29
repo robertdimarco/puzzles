@@ -6,8 +6,7 @@ The code for the Social Network can be obtained from `git clone https://level02-
 
 ### Running
 
-- Put index.php on a server somewhere with password.txt file in the
-  same directory.
+- Put `index.php` on a server somewhere with `password.txt` file in the same directory.
 
 ### Solution
 

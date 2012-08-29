@@ -10,9 +10,9 @@ Fortunately for you, the Streamer engineers have decided to open-source their ap
 
 ### Running
 
-- Install bundler: 'gem install bundler'
-- Run srv.rb: './srv.rb'
-- Point your browser to localhost:4567
+- Install bundler: `gem install bundler`
+- Run srv.rb: `./srv.rb`
+- Point your browser to `localhost:4567`
 
 ### Solution
 
