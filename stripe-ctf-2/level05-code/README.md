@@ -19,6 +19,7 @@ Interesting in setting up your own DomainAuthenticator? You can grab the source 
 ### Solution
 
   * Upload the following `index.php` PHP to your endpoint from Level 2:
+  
   ```php
   #!/usr/bin/env php
   <?php
