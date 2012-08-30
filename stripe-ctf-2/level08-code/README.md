@@ -64,7 +64,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind(('0.0.0.0', port))
 sock.listen(5)
 
-last_port, min_offset = 0, 2
+last_port = 0
 
 def resolve_chunk(sock, port_offset, known = ""):
   candidates, last_port = range(0, 1000), 0
