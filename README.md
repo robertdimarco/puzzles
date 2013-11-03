@@ -111,6 +111,25 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
   </tr>
 
   <tr>
+    <td colspan='4'><strong>Facebook Hacker Cup 2013</strong></td>
+  </tr>
+  <tr>
+    <td>Balanced Smileys</td>
+    <td>2013-01-26</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td>Beautiful Strings</td>
+    <td>2013-01-26</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td>Card Game</td>
+    <td>2013-02-02</td>
+    <td>Python</td>
+  </tr>
+
+  <tr>
     <td colspan='4'><strong>Google Code Jam 2012</strong></td>
   </tr>
   <tr>
