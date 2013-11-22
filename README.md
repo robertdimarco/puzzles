@@ -6,6 +6,7 @@ Welcome to my casual corner of GitHub! This repo houses all of the puzzle soluti
 
   * [Embed.ly Challence](http://apply.embed.ly/)
   * [Facebook Careers](http://www.facebook.com/careers/puzzles.php)
+  * [Facebook Hacker Cup 2013](http://www.facebook.com/hackercup)
   * [Google Code Jam 2012](https://code.google.com/codejam/contests.html)
   * [Greplin Challenge](http://challenge.greplin.com/)
   * [Project Euler](http://projecteuler.net/)
